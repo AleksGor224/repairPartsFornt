@@ -7,10 +7,9 @@ import React from 'react';
 import {Provider} from 'react-redux';
 import store from '../store/store';
 import DeleteContainer from "./DeletedContainer"
-import Switch from "react-router-dom/es/Switch";
-import Route from "react-router-dom/es/Route";
 import PhonesContainer from "./PhonesContainer";
 import AddNewContainer from "./AddNewContainer.js";
+import {Route, Switch} from "react-router-dom";
 
 
 const Main = () => {

@@ -18,6 +18,7 @@ class PhonesContainer extends Component {
                 {this.props.phones.length > 0 ? (
                     this.props.phones.map((e)=>
                         <PhoneView
+                            key={e.id}
                             id={e.id}
                             brand={e.brand}
                             model={e.model}
