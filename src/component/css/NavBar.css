@@ -1,0 +1,20 @@
+.NavBar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+.NavButton{
+    background-color: rgba(255, 255, 255, 0.49);
+    border-radius: 3px;
+    margin: 5px;
+    font-family: "Arial Black", sans-serif;
+}
+
+.NavButton:hover{
+    background-color: rgb(229, 229, 229);
+    border-radius: 3px;
+    margin: 5px;
+    font-family: "Arial Black", sans-serif;
+}
